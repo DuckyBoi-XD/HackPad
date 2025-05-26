@@ -16,7 +16,7 @@ from kmk.modules.encoder import EncoderHandler
 import neopixel
 
 # Number of RGB LEDs in the keyboard
-NUM_PIXELS = 8    # i think
+NUM_PIXELS = 7
 
 # Initialise keyboard
 keyboard = KMKKeyboard()
