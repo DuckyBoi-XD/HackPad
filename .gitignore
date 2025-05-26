@@ -3,3 +3,4 @@
 *.step
 *table
 .DS_Store
+*backup*
