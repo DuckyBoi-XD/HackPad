@@ -13,6 +13,11 @@ from kmk.extensions.media_keys import MediaKeys
 from kmk.modules.macros import Macros
 from kmk.modules.encoder import EncoderHandler
 
+import neopixel
+
+# Number of RGB LEDs in the keyboard
+NUM_PIXELS = 8    # i think
+
 # Initialise keyboard
 keyboard = KMKKeyboard()
 
@@ -30,8 +35,11 @@ keyboard.col_pins = (board.A3, board.SCL, board.SDA)  # COL 0, COL 1, COL 2
 macros = Macros()
 media_keys = MediaKeys()
 
-# Keep the RGB LED pin allocation (GPIO26/ADC0) but don't initialise the RGB module
-rgb_pin = board.A0  # reserves the pin
+rgb_pin = board.A0
+
+# set the RGB LEDs to full white
+pixels = neopixel.NeoPixel(rgb_pin, NUM_PIXELS, brightness=1.0, auto_write=True)
+pixels.fill((255, 255, 255))  # Set all LEDs to full white
 
 # Initialise encoder handler for two rotary encoders
 encoder_handler = EncoderHandler()
