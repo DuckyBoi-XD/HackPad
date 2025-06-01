@@ -41,6 +41,7 @@ I'd like to give credit to everyone who has helped in this project,
 - [Qincai](https://hackclub.slack.com/team/U07BNRCEARM), for being my irl friend, introducing me to Hackclub, supporting me, giving me tips, helping with this repo, and making my firmware (I can't code)
 - [StrawberryPuding](https://hackclub.slack.com/team/U08290982KU), for answering my question when Person wasn't online and helping me understand Rotary encoders
 - The entire Slack community, for answers to all my strange questions about Hackclub, Hackpad and electrical engineering in general
+- Alexren and Acorn, for being amazing organisers and often helping people like me with details and questions
 
 ## Extra Information
 
