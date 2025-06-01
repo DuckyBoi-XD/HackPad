@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HackPad - DuckyBoi  8K2R V1.kicad_pro",
+    "filename": "HackPad - DuckyBoi  7K2R V1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -489,7 +489,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "HackPad - DuckyBoi  8K2R V2.step",
+      "step": "HackPad - DuckyBoi  7K2R .step",
       "svg": "",
       "vrml": ""
     },
