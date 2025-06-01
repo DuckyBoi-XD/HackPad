@@ -2,12 +2,12 @@
 
 <img width="561" alt="Screenshot 2025-06-01 at 11 32 51 PM" src="https://github.com/user-attachments/assets/9705c22d-86f7-453a-9897-639602a7339f" />
 
-### Features
+## Features
 - 7 Switches including 1 2.00u and 6 1.00u
 - 2 Rotary knobs 
 - 7 LEDs as backlight for switches
 
-### Specifications
+## Specifications
 BOM:
 - 7x Cherry MX Switches
 - 6x Blank DSA 1.00u keycaps, 1x Blank DSA 2.00u keycap (with stabaliser slot)
@@ -19,10 +19,18 @@ BOM:
 - 4x M3x16mm screws
 (Sadly, no stabilisers :c)
 
-### Inspiration
+## Inspiration
 This is my first time using electrical engineering to create a working macropad, which I have always wanted to try to make. I've always been interested in electrical engineering (I've made a simple lamp post model), and I wanted to continue my hobby. I use the Hackpad guide and people on Slack to help me understand and get used to the software. I wanted to used 8 keys and 2 Rotary Encoder, but I wasn't able to use 10 inputs with the Xiao RP2040 for it, so I learnt how to use a matrix and use 7 Keys and 2 Rotary encoder for my project. This is also why it's called the 7K2R - 7 Key and 2 Rotary encoders, (The DuckyDk refers to my username DuckyBoi_XD and DK for Drum Kit or Duck again)
 
-### Firmware Overview  
+## Firmware Overview  
+
+The firmware of this macropad was made by QinCai and contains:
+
+- 7 Keys which linked to macro key which can be changed
+- 2 Rotary encoders,
+  - 1 adjusting volume and a switch muting the volume
+  - 1 adjusting mic volume and muting mic
+- 7 LEDs under switches which we have as a single colour
 
 ### Schematics
 
@@ -36,7 +44,7 @@ This is my first time using electrical engineering to create a working macropad,
 
 <img width="250" alt="Screenshot 2025-06-02 at 10 13 05 AM" src="https://github.com/user-attachments/assets/e890e0fb-b4a2-4df7-9757-06d4bdc7a7de" />
 
-### Credit
+## Credit
 I'd like to give credit to everyone who has helped in this project,
 
 - [@Person20020 (Koji)](https://hackclub.slack.com/team/U07QNKS5SKA), for answering almost every question I had while making the pad, and pretty much telling me what to do because I had no clue. I'm thankful that Person20020 is an expert in Kicad and Fusion because without them, I wouldn't have been able to finish
