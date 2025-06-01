@@ -1,2 +1,0 @@
-# HackPad
-DuckyBoi VC1
