@@ -22,7 +22,9 @@ BOM:
 ### Inspiration
 This is my first time using electrical engineering to create a working macropad, which I have always wanted to try to make. I've always been interested in electrical engineering (I've made a simple lamp post model), and I wanted to continue my hobby. I use the Hackpad guide and people on Slack to help me understand and get used to the software. I wanted to used 8 keys and 2 Rotary Encoder, but I wasn't able to use 10 inputs with the Xiao RP2040 for it, so I learnt how to use a matrix and use 7 Keys and 2 Rotary encoder for my project. This is also why it's called the 7K2R - 7 Key and 2 Rotary encoders, (The DuckyDk refers to my username DuckyBoi_XD and DK for Drum Kit or Duck again)
 
-### Firmware Overview      
+### Firmware Overview  
+
+### Schematics
 
 <img width="250" alt="Screenshot 2025-06-02 at 10 05 05 AM" src="https://github.com/user-attachments/assets/70fbdcc0-8e3d-4209-bb58-b46020b64cd5" />
 
