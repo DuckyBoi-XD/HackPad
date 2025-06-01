@@ -2423,22 +2423,22 @@
 	)
 	(global_label "ROT2-A"
 		(shape input)
-		(at 196.85 132.08 0)
+		(at 161.29 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "26927585-ba78-496e-aaf3-2aedc83218cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.2738 132.08 0)
+			(at 150.8662 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2533,22 +2533,22 @@
 	)
 	(global_label "ROT1-A"
 		(shape input)
-		(at 161.29 120.65 180)
+		(at 196.85 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "76649f5a-8a09-4c47-a367-e2dc873d119e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.8662 120.65 0)
+			(at 207.2738 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2577,22 +2577,22 @@
 	)
 	(global_label "Col 0"
 		(shape input)
-		(at 161.29 128.27 180)
+		(at 196.85 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9204c095-05d2-4c2b-972c-a64df6ffb12a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.0435 128.27 0)
+			(at 205.0965 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2621,22 +2621,22 @@
 	)
 	(global_label "ROT2-B"
 		(shape input)
-		(at 196.85 128.27 0)
+		(at 161.29 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9963f763-9fe6-46e6-9418-d558ab6c3037")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.4552 128.27 0)
+			(at 150.6848 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2665,22 +2665,22 @@
 	)
 	(global_label "Row 1"
 		(shape input)
-		(at 196.85 139.7 0)
+		(at 161.29 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a1c61ad4-f5a7-4bca-9bf1-bf63cc5a23f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.7618 139.7 0)
+			(at 152.3782 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2731,22 +2731,22 @@
 	)
 	(global_label "ROT1-B"
 		(shape input)
-		(at 161.29 124.46 180)
+		(at 196.85 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "bd6d9e39-1ed4-4115-92f6-04d2c690c954")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.6848 124.46 0)
+			(at 207.4552 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3413,7 +3413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MCU:Seeed_XIAO_RP2040"
+		(property "Footprint" "OPL:XIAO-RP2040-DIP"
 			(at 179.578 144.018 0)
 			(effects
 				(font
