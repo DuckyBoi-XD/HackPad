@@ -1,4 +1,4 @@
-# DuckyDK Pad 8K2R
+# DuckyDK Pad 7K2R
 
 <img width="561" alt="Screenshot 2025-06-01 at 11 32 51 PM" src="https://github.com/user-attachments/assets/9705c22d-86f7-453a-9897-639602a7339f" />
 
