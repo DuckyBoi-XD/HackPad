@@ -37,9 +37,9 @@ This is my first time using electrical engineering to create a working macropad,
 ### Credit
 I'd like to give credit to everyone who has helped in this project,
 
-- Person20020 (Koji), for answering almost every question I had while making the pad, and pretty much telling me what to do because I had no clue. I'm thankful that Person20020 is an expert in Kicad and Fusion because without them, I wouldn't have been able to finish
-- Qincai, for being my irl friend, introducing me to Hackclub, supporting me, giving me tips, helping with this repo, and making my firmware (I can't code)
-- StrawberryPuding, for answering my question when Person wasn't online and helping me understand Rotary encoders
+- [Person20020 (Koji)](https://hackclub.slack.com/team/U07QNKS5SKA), for answering almost every question I had while making the pad, and pretty much telling me what to do because I had no clue. I'm thankful that Person20020 is an expert in Kicad and Fusion because without them, I wouldn't have been able to finish
+- [Qincai](https://hackclub.slack.com/team/U07BNRCEARM), for being my irl friend, introducing me to Hackclub, supporting me, giving me tips, helping with this repo, and making my firmware (I can't code)
+- [StrawberryPuding](https://hackclub.slack.com/team/U08290982KU), for answering my question when Person wasn't online and helping me understand Rotary encoders
 - The entire Slack community, for answers to all my strange questions about Hackclub, Hackpad and electrical engineering in general
 
 ## Extra Information
