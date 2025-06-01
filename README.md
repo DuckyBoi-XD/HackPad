@@ -38,6 +38,10 @@ This is my first time using electrical engineering to create a working macropad,
 I'd like to give credit to everyone who has helped in this project,
 
 - Person20020 (Koji), for answering almost every question I had while making the pad, and pretty much telling me what to do because I had no clue. I'm thankful that Person20020 is an expert in Kicad and Fusion because without them, I wouldn't have been able to finish
-- Qincai, for being my irl friend, introducing me to Hackclub, supporting me, giving me tips, and making my firmware (I can't code)
+- Qincai, for being my irl friend, introducing me to Hackclub, supporting me, giving me tips, helping with this repo, and making my firmware (I can't code)
 - StrawberryPuding, for answering my question when Person wasn't online and helping me understand Rotary encoders
 - The entire Slack community, for answers to all my strange questions about Hackclub, Hackpad and electrical engineering in general
+
+## Extra Information
+
+The Fusion model contains a derived version of my case, which contains my bottom case and top case as well as the PCB export. I have the main version plus the models I derived from it, but it contains switches, stabilisers, rotary encoders and Xiao MCU models. I read the guide, and it says just to add a single file for the case so I did. If the person reviewing thing project needs the main file for the case, try to message me.
