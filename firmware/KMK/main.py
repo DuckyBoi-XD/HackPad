@@ -1,4 +1,33 @@
 ################################################################################
+#                 Mozilla Public License Version 2.0                           #
+#                                                                              #
+#     This Source Code Form is subject to the terms of the Mozilla Public      #
+#     License, v. 2.0. If a copy of the MPL was not distributed with this      #
+#     file, You can obtain one at http://mozilla.org/MPL/2.0/.                 #
+#                                                                              #
+#         .d88b.  d888888b d8b   db  .o88b.  .d8b.  d888888b                   #
+#        .8P  Y8.   `88'   888o  88 d8P  Y8 d8' `8b   `88'                     #
+#        88    88    88    88V8o 88 8P      88ooo88    88                      #
+#        88    88    88    88 V8o88 8b      88~~~88    88                      #
+#        `8P  d8'   .88.   88  V888 Y8b  d8 88   88   .88.                     #
+#         `Y88'Y8 Y888888P VP   V8P  `Y88P' YP   YP Y888888P                   # 
+#                     Made with love by Raymont Qin                            #
+#             https://qincai.xyz    github.com/QinCai-rui                      #
+#                                                                              #
+#      - You are free to use, share, and modify this code.                     #
+#      - If you change the code and share it, you must keep it open.           #
+#      - The full license text is here: http://mozilla.org/MPL/2.0/            #
+#                                                                              #
+#      In simple terms:                                                        #
+#        - You can use this for personal or commercial projects.               #
+#        - If you improve or change the code and share it,                     #
+#          you must share your changes under the same license.                 #
+#        - You do NOT have to share your whole project, just the changes       #
+#          to this file.                                                       #
+################################################################################
+
+
+################################################################################
 # VERY USEFUL: https://github.com/KMKfw/kmk_firmware/tree/main/docs/en         #
 ################################################################################
 
