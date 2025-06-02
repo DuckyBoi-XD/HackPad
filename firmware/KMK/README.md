@@ -8,8 +8,8 @@ This is an overview of the firmware for the Ducky DK macroboard, as implemented 
 
 ### 1. Hardware Configuration
 - **Matrix Pins:**
-  - **Rows:** TBC
-  - **Columns:** TBC
+  - **Rows:** GPIO2/SCK, GPIO29/ADC3/A3, GPIO0/TX
+  - **Columns:** GPIO1/RX, GPIO6/SDA, GPIO7/SDA
   - **Diode Orientation:** COL2ROW (1N4148 diodes)
 - **RGB LEDs:**
   - Uses 7 NeoPixel-compatible RGB LEDs connected to `board.A0`  pls check
