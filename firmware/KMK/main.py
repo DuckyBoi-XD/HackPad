@@ -41,16 +41,38 @@ rgb_pin = board.A0
 pixels = neopixel.NeoPixel(rgb_pin, NUM_PIXELS, brightness=1.0, auto_write=True)
 pixels.fill((255, 255, 255))  # Set all LEDs to full white
 
+# Add a variable to keep track of brightness
+led_brightness = 1.0
+
+# Custom functions to change LED brightness
+def increase_led_brightness():
+    global led_brightness
+    led_brightness = min(1.0, led_brightness + 0.05)
+    pixels.brightness = led_brightness
+
+def decrease_led_brightness():
+    global led_brightness
+    led_brightness = max(0.0, led_brightness - 0.05)
+    pixels.brightness = led_brightness
+
+def toggle_led_backlight():
+    global led_brightness
+    if led_brightness > 0:
+        led_brightness = 0
+    elif led_brightness == 0:
+        led_brightness = 1.0
+    pixels.brightness = led_brightness
+
 # Initialise encoder handler for two rotary encoders
 encoder_handler = EncoderHandler()
 
 # Configure encoder pins:
 # Encoder 1: ROT1-A (GPIO27/ADC1), ROT1-B (GPIO28/ADC2)
 # Encoder 2: ROT2-A (GPIO4/MISO), ROT2-B (GPIO3/MOSI)
-encoder_handler.pins = (
-    (board.A1, board.A2, KC.MUTE),  # Encoder 1 (SW2) - Volume control with mute
-    (board.MISO, board.MOSI, KC.MUTE)  # Encoder 2 (SW1) - Brightness control with mute (idk what to change it to)
-)
+keyboard.encoder_pins = [
+    (board.A1, board.A2),     # Encoder 1 (A and B)
+    (board.MISO, board.MOSI), # Encoder 2 (A and B)
+]
 
 # Common macros
 COPY = KC.LGUI(KC.C)  # Command+C for macOS
@@ -80,9 +102,10 @@ keyboard.keymap = [
 
 # Configure encoders
 # Encoder 1: Volume control with mute
-# Encoder 2: Brightness control with mute (idk what to change it to)
+# Encoder 2: LED Brightness control with mute
 encoder_handler.map = (
-    ((KC.VOLD, KC.VOLU, KC.MUTE), (KC.BRID, KC.BRIU, KC.MUTE)),
+    (KC.VOLD, KC.VOLU, KC.MUTE),
+    (decrease_led_brightness, increase_led_brightness, toggle_led_backlight),
 )
 
 if __name__ == "__main__":
