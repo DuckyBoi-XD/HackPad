@@ -27,7 +27,7 @@ This is an overview of the firmware for the Ducky DK macroboard, as implemented 
 ### 3. LED Backlight Control
 - Functions to:
   - Increase/decrease LED brightness
-  - Toggle backlight on/off
+  - Toggle back-light on/off
 
 ### 4. Keymap & Layers
 - **Single-layer keymap** (for now) with shortcuts:
@@ -40,7 +40,7 @@ This is an overview of the firmware for the Ducky DK macroboard, as implemented 
 - **Encoder 2:** Controls RGB LED brightness (decrease/increase/toggle)
 
 ### 6. Startup
-- The keyboard is initialiaed and run with `keyboard.go()` in the standard Python entry point.
+- The keyboard is initialised and run with `keyboard.go()` in the standard Python entry point.
 
 ---
 
