@@ -10,14 +10,14 @@
 ## Specifications
 BOM:
 - 7x Cherry MX Switches
-- 6x Blank DSA 1.00u keycaps, 1x Blank DSA 2.00u keycap (with stabaliser slot)
+- 7x Blank DSA 1.00u keycaps
 - 7x SK6812 Neopixels
 - 2x EC11 Rotary Encoder - RotaryEncoder_Switch
 - 2x Rotary knob
 - 1x XIAO RP2040
 - 4x M3x5mx4mm heatset insert
 - 4x M3x16mm screws
-(Sadly, no stabilisers :c)
+(Sadly, no stabilisers or 2.00u keycap :c)
 
 ## Inspiration
 This is my first time using electrical engineering to create a working macropad, which I have always wanted to try to make. I've always been interested in electrical engineering (I've made a simple lamp post model), and I wanted to continue my hobby. I use the Hackpad guide and people on Slack to help me understand and get used to the software. I wanted to used 8 keys and 2 Rotary Encoder, but I wasn't able to use 10 inputs with the Xiao RP2040 for it, so I learnt how to use a matrix and use 7 Keys and 2 Rotary encoder for my project. This is also why it's called the 7K2R - 7 Key and 2 Rotary encoders, (The DuckyDk refers to my username DuckyBoi_XD and DK for Drum Kit or Duck again)
