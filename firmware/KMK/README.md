@@ -16,8 +16,8 @@ This is an overview of the firmware for the Ducky DK macroboard, as implemented 
   - All LEDs are set to full white at startup with adjustable brightness
 - **Rotary Encoders:**
   - Two rotary encoders are supported
-    - Encoder 1: Pins `board.A1`, `board.A2` pls check
-    - Encoder 2: Pins `board.MISO`, `board.MOSI` pls check
+    - Encoder 1: Pins `board.MISO`, `board.MOSI2`
+    - Encoder 2: Pins `board.A1`, `board.A`
 
 ### 2. Modules & Extensions
 - **Media Keys:** Support for media key actions (volume, mute, etc.)
