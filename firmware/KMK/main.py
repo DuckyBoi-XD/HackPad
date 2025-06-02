@@ -54,11 +54,11 @@ keyboard = KMKKeyboard()
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
 # Matrix pins
-# ROW pins are connected to GPIO0/TX (ROW 2), GPIO1/RX (ROW 1), and GPIO2/SCK (ROW 0)
-keyboard.row_pins = (board.SCK, board.RX, board.TX)  # ROW 0, ROW 1, ROW 2
+# ROW pins are connected to GPIO0/TX (ROW 2), GPI29/A3 (ROW 1), and GPIO2/SCK (ROW 0)
+keyboard.row_pins = (board.SCK, board.A3, board.TX)  # ROW 0, ROW 1, ROW 2
 
-# COL pins are connected to GPIO6/SDA (COL 2), GPIO7/SCL (COL 1), and GPIO29/ADC3 (COL 0)
-keyboard.col_pins = (board.A3, board.SCL, board.SDA)  # COL 0, COL 1, COL 2
+# COL pins are connected to GPIO7/SCL (COL 2), GPIO6/SDA (COL 1), and GPIO1/RX (COL 0)
+keyboard.col_pins = (board.RX, board.SDA, board.SCL)  # COL 0, COL 1, COL 2
 
 # Initialise modules
 macros = Macros()
@@ -96,11 +96,11 @@ def toggle_led_backlight():
 encoder_handler = EncoderHandler()
 
 # Configure encoder pins:
-# Encoder 1: ROT1-A (GPIO27/ADC1), ROT1-B (GPIO28/ADC2)
-# Encoder 2: ROT2-A (GPIO4/MISO), ROT2-B (GPIO3/MOSI)
+# Encoder 1: ROT2-A (GPIO4/MISO), ROT2-B (GPIO3/MOSI)
+# Encoder 2: ROT1-A (GPIO27/ADC1), ROT1-B (GPIO28/ADC2)
 keyboard.encoder_pins = [
-    (board.A1, board.A2),     # Encoder 1 (A and B)
-    (board.MISO, board.MOSI), # Encoder 2 (A and B)
+    (board.MISO, board.MOSI), # Encoder 1 (A and B)
+    (board.A1, board.A2),     # Encoder 2 (A and B)
 ]
 
 # Common macros
