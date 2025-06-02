@@ -29,7 +29,7 @@ The firmware of this macropad was made by QinCai and contains:
 - 7 Keys which linked to macro key which can be changed
 - 2 Rotary encoders,
   - 1 adjusting volume and a switch muting the volume
-  - 1 adjusting mic volume and muting mic
+  - 1 adjusting LEDs brightness and a off button
 - 7 LEDs under switches which we have as a single colour
 
 ### Schematics
